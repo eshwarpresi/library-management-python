@@ -1,37 +1,64 @@
 # Library Management System
 
-A comprehensive library management system built with Python using Object-Oriented Programming principles.
+A Python-based library management system built with Object-Oriented Programming principles.
+
+# GitHUb Repository : https://github.com/eshwarpresi/library-management-python.git
 
 ## Features
 
-### Book Management
-- Add new books with details (title, author, ISBN, genre, quantity)
-- Update existing book information
-- Remove books from the library
-- View all books with availability status
+- **Book Management**: Add, update, remove, and view books
+- **Borrower Management**: Manage library members and their information  
+- **Book Transactions**: Borrow and return books with due date tracking
+- **Search System**: Find books by title, author, or genre
+- **Reports**: View overdue books and system analytics
 
-### Borrower Management
-- Add new borrowers with membership IDs
-- Update borrower contact information
-- Remove borrowers from the system
-- View all registered borrowers
+## Quick Start
 
-### Book Operations
-- Borrow books with due date tracking
-- Return books with availability updates
-- Search books by title, author, or genre
-- Check book availability status
+```bash
+# Clone and run
+git clone https://github.com/eshwarpresi/library-management-python.git
+cd library-management-python
+python main.py
+System Overview
+The application implements three core classes:
 
-### Reports
-- Overdue books report
-- All books inventory
-- All borrowers list
+Book: Manages book details and availability
 
-## OOP Concepts Implemented
+Borrower: Handles member information and borrowed books
 
-1. **Encapsulation**: All classes have private attributes with public methods
-2. **Inheritance**: Ready for extension with specialized book types
-3. **Polymorphism**: Methods can handle different types of operations
-4. **Abstraction**: Complex operations simplified through method calls
+Library: Orchestrates all operations and maintains data relationships
 
-## Project Structure
+Usage
+Run python main.py
+
+Use the menu to navigate:
+
+Book Management: Add/view books
+
+Borrower Management: Manage members
+
+Borrow/Return: Process transactions
+
+Search: Find books
+
+Reports: System analytics
+
+Sample Data
+The system includes sample books and borrowers for testing:
+
+5 books across various genres
+
+3 borrowers with membership IDs
+
+Technical Details
+Built with Python OOP principles
+
+Real-time inventory tracking
+
+Input validation and error handling
+
+Modular and extensible architecture
+
+Developer
+Eshwar Raju A G
+GitHub: https://github.com/eshwarpresi
